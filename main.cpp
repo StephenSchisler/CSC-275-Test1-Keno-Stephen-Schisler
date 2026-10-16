@@ -3,7 +3,19 @@
 #include <algorithm>
 #include <random>
 
+#include "Game.h"
+
+// Given Question: Use comments in your code to describe where your solution represents the ( a.) encapsulation and b.) abstraction ) concepts explained in lecture.
+
+// a.) Encapsulation is used in the program via having both private member variables, and with functions designed to access those variables, restricting direct access to the variables to when specific functions are called
+
+// b.) Abstraction is used in the code via the separation of the .cpp and .h files. if you only what to know the "what" and not the how, you would check the header file.
+
 int main() {
+
+    Game game;
+
+/*
     char again = 'y';
     bool error;
     int temp=0;
@@ -122,6 +134,8 @@ int main() {
         matches.clear();
     } while (tolower(again) == 'y');
     std::cout << "\nTHANKS FOR PLAYING!!\n";
+*/
+
 
     return 0;
 }

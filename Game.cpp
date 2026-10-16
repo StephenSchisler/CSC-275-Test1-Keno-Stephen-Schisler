@@ -9,6 +9,8 @@
 
 Game::Game() {
     m_matches = std::vector<int>();
+
+    playGame();
 }
 
 void Game::printMatches(std::vector <int> playerNumbers, std::vector <int> kenoNumbers) {
